@@ -1,0 +1,591 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 57px;
+    width: 100%;
+    background: black;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.headmenu{
+    display: flex;
+}
+.line1 h2{
+    color:rgb(102, 101, 100);
+}
+.line1 p{
+    font-size: x-large;
+    color: grey;
+}
+h1{
+    color:rgb(102, 101, 100);
+}
+.left-header{
+    width: 26%;
+    height: 57px;
+    display: flex;
+
+}
+.icon1{
+    color: white;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: x-large;
+}
+.sign{
+    color: white;
+    /* font-size: large; */
+    margin-top: 17px;
+    margin-left: 8px;
+}
+.centralheader{
+    width: 80%;
+}
+.centralheader ul{
+    display: flex;
+    justify-content: space-between;
+}
+.centralheader ul li{
+    list-style: none;
+}
+.centralheader ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.centralheader ul li a:hover{
+        color: gold;
+}
+.rightheader{
+    width: 20%;
+    line-height: 50px;
+    margin-left: 25px;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.topnewsbox{
+    height: 330px; 
+    display: flex;
+    
+}
+.topnewsbox .leftnews img{
+    height: 100%;
+    width: 100%;
+}
+.leftnews{
+    height: 330px;
+    width: 48%;
+    position: relative;
+}
+.irontext{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.irontext2{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: large;
+    
+    color: white;
+}
+.leftnews img:hover {
+    opacity: 0.9;
+}
+.rightnews{
+    height: 48%;
+    width: 50%;
+    margin-left: 10px;
+    position: relative;
+}
+.rightnews .smallpic1 img{
+    width: 330px;
+    height: 160px;
+}
+.rightnews .smallpic2 img{
+    width: 290px;
+    height: 160px;
+}
+.rightnews .smallpic3 img{
+    width: 330px;
+    height: 160px;
+}
+.rightnews .smallpic4 img{
+    width:290px ;
+    height: 160px;
+}
+.smallpic1{
+    position: absolute;
+}
+.textdhoni{
+    position: absolute;
+    color: white;
+    font-size: large;
+    top: 60%;
+    left: 5%;
+    font-weight: bold
+}
+.smallpic1 img:hover{
+    opacity: 0.8;
+}
+.smallpic2{
+    position: absolute;
+    margin-left: 340px;
+}
+.textjohn{
+    position: absolute;
+    color: white;
+    top: 60%;
+    font-size: large;
+    left: 5%;
+    font-weight: bold;
+}
+.smallpic2 img:hover{
+    opacity: 0.8;
+}
+.smallpic3{ 
+    position: absolute;
+    margin-top: 170px;
+}
+.textragnar{
+    position: absolute;
+    color: white;
+    top: 58%;
+    font-size: large;
+    left: 5%;
+    font-weight: bold;
+}
+.smallpic3 img:hover{
+    opacity: 0.8;
+}
+.smallpic4{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 340px;
+}  
+.textparker{
+    position: absolute;
+    color: white;
+    top: 58%;
+    font-size: large;
+    font-weight: bold;
+    left: 5%;
+}
+.smallpic4 img:hover{
+    opacity: 0.8;
+}
+.newsbox{
+    height: 360px;
+    width: 101%;
+    display: flex;
+    justify-content: space-between;
+}
+.news1{
+    position: relative;
+    width: 33%;
+}
+.newsbox .news1 img{
+    height: 250px;
+     width: 98%;
+}
+.newsbox .news2 img{
+    height: 250px;
+     width: 98%;
+}
+.newsbox .news3 img{
+    height: 250px;
+     width: 98%;
+}
+.news1 img:hover{
+    opacity: 0.8;
+}
+.news2 img:hover{
+    opacity: 0.8;
+}
+.news3 img:hover{
+    opacity: 0.8;
+}
+.headtextwednesday{
+    position: absolute;
+    width: 100%;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bottomtextwednesday{
+    position: absolute;
+    margin-top: 50px;
+    width: 95%;
+    color: grey;
+}
+.headtextprachanda{
+    position: absolute;
+    width: 30%;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bottomtextprachanda{
+    position: absolute;
+    margin-top: 50px;
+    width: 30%;
+    color: grey;
+}
+.headtextshreekant{
+    position: absolute;
+    width: 30%;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bottomtextshreekant{
+    position: absolute;
+    margin-top: 50px;
+    width: 30%;
+    color: grey;
+}
+.sportbox{
+    height: 360px;
+    width: 101%;
+    display: flex;
+    justify-content: space-between;
+}
+.sportbox .sportbox1 img{
+    height: 250px;
+    width: 98%;
+}
+.sportbox .sportbox1 img:hover{opacity: 0.8;}
+.sportbox .sportbox2 img{
+    height: 250px;
+    width: 98%;
+}
+.sportbox .sportbox2 img:hover{opacity: 0.8;}
+.sportbox .sportbox3 img{
+    height: 250px;
+    width: 98%;
+}
+.sportbox .sportbox3 img:hover{opacity: 0.8;}
+.headerdembele{
+    position: absolute;
+    width: 30%;
+    font-size: larger;
+    font-weight: bolder;
+}
+.bottomdembele{
+    position: absolute;
+    width: 30%;
+    margin-top: 50px;
+    color: grey;
+}
+
+.headermbappe{
+    position: absolute;
+    width: 30%;
+    font-size: larger;
+    font-weight: bolder;
+}
+.bottommbappe{
+    width: 30%;
+    position: absolute;
+    margin-top: 50px;
+    color: grey;
+}
+.headergoats{
+    position: absolute;
+    width: 30%;
+    font-size: larger;
+    font-weight: bolder;
+}
+.bottomgoats{
+    position: absolute;
+    width: 30%;
+    margin-top: 50px;
+    color: grey;
+}
+.nepal{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    height: 715px;
+    position: relative;
+}
+.nepal h1{
+    color: rgb(49, 45, 45);
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.npic1{
+    width: 90%;
+    position: relative;
+}
+.nepal .npic1 img{
+    width: 49%;
+    height: 350px;
+    margin-left: 5%;
+    position: absolute;
+}
+.nepal .npic1 img:hover{opacity: 0.8;}
+.textmahendra{
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 44%;
+    left: 80px;
+    top:250px;
+}
+.nepal .npic2 img{
+    position: absolute;
+    height: 347px;
+    width: 619px;
+    margin-left: 675px;
+}
+.nepal .npic2 img:hover{opacity: 0.8;}
+.texttraffic{
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 44%;
+    top: 330px;
+    left: 710px;
+}
+.nepal .npic3 img{
+    width: 400px;
+    margin-left: 4.5%;
+    position: relative;
+    height: 200px;
+    top: 370px;
+}
+.nepal .npic3 img:hover{opacity: 0.8;}
+.textanmol{
+    width: 380px;
+    position: absolute;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    left: 68px;
+    top: 660px;
+}
+.nepal .npic4 img{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 166px;
+    left: 480px;
+}
+.nepal .npic4 img:hover{opacity: 0.8;}
+.textkpoli{
+    width: 380px;
+    position: absolute;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    left: 485px;
+    top: 660px;
+}
+
+.nepal .npic5 img{
+    width: 395px;
+    height: 200px;
+    position: relative;
+    left: 900px;
+    top: -38px;
+
+}
+.nepal .npic5 img:hover{opacity: 0.8;}
+.textrajesh{
+    width: 380px;
+    position: absolute;
+    height: 50px;
+    font-weight: bolder;
+    font-size: larger;
+    left: 908px;
+    top: 660px;
+}
+.reels  {
+    width: 100%;
+    height: 430px;
+    background-color: red;
+    position: relative;
+}
+.reelsheading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.reels .container .reel{
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+   
+}
+.visitreel{
+    color: white;
+    font-size: x-large;
+    width: 127px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 11px;
+    margin-top: 19px;
+}
+.visitreel i{
+   
+    padding-top: 1px;
+
+    font-size: large;
+}
+.reeldef{
+    padding-top: 10px;
+    color: white;
+    font-size: larger;
+}
+.reel1{
+    margin-top: 20px;
+    height: 275px;
+    width: 400px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    
+}
+.reel1 img{
+    height: 80%;
+    width: 100%;
+}
+.reel1txt{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 10px;
+}
+.reel2{
+    margin-top: 20px;
+    margin-left: 420px;
+    height: 275px;
+    width: 400px;
+    position: absolute;
+    color: black;
+    background-color: white;
+   
+
+}
+.reel2 img{
+    height: 80%;
+    width: 100%;
+}
+.reeltxt2{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 10px;
+}
+.reel3{
+    margin-top: 20px;
+    margin-left: 840px;
+    height: 275px;
+    width: 390px;
+    position: absolute;
+    color: black;
+    background-color: white;
+}
+.reel3 img{
+    height: 80%;
+    width: 100%;
+}
+.reel3txt{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 10px;
+}
+footer{
+    width: 100%;
+    height: 240px;
+    background: rgb(78, 78, 78);}
+footer h2{
+    position: absolute;
+    color: white;
+}
+footer .upfooter ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 68px;
+    margin-left: -40px;
+    list-style: none;
+    align-items: stretch;
+
+}
+footer .upfooter ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer .centralfooter ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: -40px;
+    list-style: none;
+    align-items: stretch;
+
+}
+footer .centralfooter ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.hide1{
+    display: n;
+}
+footer .downfooter ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10px;
+    width: 100%;
+    margin-left: -40px;
+}
+footer .downfooter ul li{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
